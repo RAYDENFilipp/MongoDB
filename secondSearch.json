@@ -1,0 +1,146 @@
+[
+{ 
+    "_id" : NumberInt(7), 
+    "name" : "Salena Olmos", 
+    "scores" : {
+        "type" : "exam", 
+        "score" : 90.37826509157176
+    }
+},
+{ 
+    "_id" : NumberInt(9), 
+    "name" : "Sanda Ryba", 
+    "scores" : {
+        "type" : "exam", 
+        "score" : 97.00509953654694
+    }
+},
+{ 
+    "_id" : NumberInt(13), 
+    "name" : "Jessika Dagenais", 
+    "scores" : {
+        "type" : "exam", 
+        "score" : 90.47179954427436
+    }
+},
+{ 
+    "_id" : NumberInt(44), 
+    "name" : "Houston Valenti", 
+    "scores" : {
+        "type" : "exam", 
+        "score" : 98.06441387027331
+    }
+},
+{ 
+    "_id" : NumberInt(47), 
+    "name" : "Kurtis Jiles", 
+    "scores" : {
+        "type" : "exam", 
+        "score" : 92.96916908741805
+    }
+},
+{ 
+    "_id" : NumberInt(49), 
+    "name" : "Dinah Sauve", 
+    "scores" : {
+        "type" : "exam", 
+        "score" : 96.64807532447064
+    }
+},
+{ 
+    "_id" : NumberInt(55), 
+    "name" : "Tresa Sinha", 
+    "scores" : {
+        "type" : "exam", 
+        "score" : 94.93136959210354
+    }
+},
+{ 
+    "_id" : NumberInt(59), 
+    "name" : "Vinnie Auerbach", 
+    "scores" : {
+        "type" : "exam", 
+        "score" : 95.45508256300009
+    }
+},
+{ 
+    "_id" : NumberInt(72), 
+    "name" : "Leonida Lafond", 
+    "scores" : {
+        "type" : "exam", 
+        "score" : 92.10605086888438
+    }
+},
+{ 
+    "_id" : NumberInt(84), 
+    "name" : "Timothy Harrod", 
+    "scores" : {
+        "type" : "exam", 
+        "score" : 93.23020013495737
+    }
+},
+{ 
+    "_id" : NumberInt(97), 
+    "name" : "Maren Scheider", 
+    "scores" : {
+        "type" : "exam", 
+        "score" : 94.4329121733663
+    }
+},
+{ 
+    "_id" : NumberInt(127), 
+    "name" : "Oneil Tod", 
+    "scores" : {
+        "type" : "exam", 
+        "score" : 96.93459855769822
+    }
+},
+{ 
+    "_id" : NumberInt(136), 
+    "name" : "Porter Alex", 
+    "scores" : {
+        "type" : "exam", 
+        "score" : 99.33685767140612
+    }
+},
+{ 
+    "_id" : NumberInt(153), 
+    "name" : "Barker David", 
+    "scores" : {
+        "type" : "exam", 
+        "score" : 91.38690728885123
+    }
+},
+{ 
+    "_id" : NumberInt(154), 
+    "name" : "Shannon Alex", 
+    "scores" : {
+        "type" : "exam", 
+        "score" : 94.50988306850947
+    }
+},
+{ 
+    "_id" : NumberInt(159), 
+    "name" : "Bullock Luis", 
+    "scores" : {
+        "type" : "exam", 
+        "score" : 97.822030541043
+    }
+},
+{ 
+    "_id" : NumberInt(174), 
+    "name" : "Frye Paul", 
+    "scores" : {
+        "type" : "exam", 
+        "score" : 91.51968055194875
+    }
+},
+{ 
+    "_id" : NumberInt(191), 
+    "name" : "Marshall Paul", 
+    "scores" : {
+        "type" : "exam", 
+        "score" : 94.67153825229884
+    }
+}
+]
