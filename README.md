@@ -64,6 +64,6 @@ db.philippLypniakov.aggregate(
 ```
 
 [Studio 3T]: <https://studio3t.com/>
-[1st]: <https://github.com/RAYDENFilipp/MongoDB/blob/4552062f5a6ac1baf3279a4bf5ac655456cd2200/dataSample.json>
-[2nd]:<https://github.com/RAYDENFilipp/MongoDB/blob/05c2cfef17de6ffc4fde533c4b46cff97250fe67/dataSample.json>
-[3rd]:<https://github.com/RAYDENFilipp/MongoDB/blob/468c57b9c3937102417fc3bd3321ba1d24511b21/dataSample.json>
+[1st]: <https://github.com/RAYDENFilipp/MongoDB/blob/master/firstSearch.json>
+[2nd]:<https://github.com/RAYDENFilipp/MongoDB/blob/master/secondSearch.json>
+[3rd]:<https://github.com/RAYDENFilipp/MongoDB/blob/master/thirdSearch.json>
