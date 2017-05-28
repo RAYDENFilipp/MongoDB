@@ -3,7 +3,7 @@ BSA Lection - 3: MongoDB
 
 ## This lesson was completed with use of [Studio 3T].
 
-1. A query to search for all students who's score > 87% and < 93% for any of the types of completed assignments [query result][1st]:
+1. A query to search for all students who's score > 87% and < 93% for any of the types of completed assignments([query result][1st]):
 ```javascript
 db.philippLypniakov.find({
     "scores": {
@@ -16,7 +16,7 @@ db.philippLypniakov.find({
     }
 });
 ```
-2. Write an aggregation query to select all students who have a test result (type: "exam") of more than 90% (use unwind) [query result][2nd]:
+2. Write an aggregation query to select all students who have a test result (type: "exam") of more than 90% (use unwind)([query result][2nd]):
 ```javascript
 db.philippLypniakov.aggregate(
 	// Pipeline
@@ -39,7 +39,7 @@ db.philippLypniakov.aggregate(
 	]
 );
 ```
-3. Modify Dusty Lemmond's documents [query result][3rd]:
+3. Modify Dusty Lemmond's documents([query result][3rd]):
 ```javascript
 db.philippLypniakov.aggregate(
 	// Pipeline
