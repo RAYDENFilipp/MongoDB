@@ -27,7 +27,7 @@ db.philippLypniakov.aggregate(
 			    path : "$scores"
 			}
 		},
-    
+
 		// Stage 2
 		{
 			$match: {
@@ -37,5 +37,28 @@ db.philippLypniakov.aggregate(
 		},
 
 	]
+);
+```
+3. Modify Dusty Lemmond's documents:
+```javascript
+db.philippLypniakov.aggregate(
+	// Pipeline
+	[
+		// Stage 1
+		{
+			$match: {
+			name : "Dusti Lemmond"
+			}
+		},
+
+		// Stage 2
+		{
+			$addFields: {
+			    "accepted": true
+			}
+		},
+
+	]
+
 );
 ```
