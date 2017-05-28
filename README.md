@@ -63,4 +63,4 @@ db.philippLypniakov.aggregate(
 );
 ```
 
-[Studio 3T]: (https://studio3t.com/)
+[Studio 3T]: <https://studio3t.com/>
