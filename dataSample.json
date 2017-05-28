@@ -1,20 +1,48 @@
 [
-{ "_id" : 7, "name" : "Salena Olmos", "scores" : { "type" : "exam", "score" : 90.37826509157176 } },
-{ "_id" : 9, "name" : "Sanda Ryba", "scores" : { "type" : "exam", "score" : 97.00509953654694 } },
-{ "_id" : 13, "name" : "Jessika Dagenais", "scores" : { "type" : "exam", "score" : 90.47179954427436 } },
-{ "_id" : 44, "name" : "Houston Valenti", "scores" : { "type" : "exam", "score" : 98.06441387027331 } },
-{ "_id" : 47, "name" : "Kurtis Jiles", "scores" : { "type" : "exam", "score" : 92.96916908741805 } },
-{ "_id" : 49, "name" : "Dinah Sauve", "scores" : { "type" : "exam", "score" : 96.64807532447064 } },
-{ "_id" : 55, "name" : "Tresa Sinha", "scores" : { "type" : "exam", "score" : 94.93136959210354 } },
-{ "_id" : 59, "name" : "Vinnie Auerbach", "scores" : { "type" : "exam", "score" : 95.45508256300009 } },
-{ "_id" : 72, "name" : "Leonida Lafond", "scores" : { "type" : "exam", "score" : 92.10605086888438 } },
-{ "_id" : 84, "name" : "Timothy Harrod", "scores" : { "type" : "exam", "score" : 93.23020013495737 } },
-{ "_id" : 97, "name" : "Maren Scheider", "scores" : { "type" : "exam", "score" : 94.4329121733663 } },
-{ "_id" : 127, "name" : "Oneil Tod", "scores" : { "type" : "exam", "score" : 96.93459855769822 } },
-{ "_id" : 136, "name" : "Porter Alex", "scores" : { "type" : "exam", "score" : 99.33685767140612 } },
-{ "_id" : 153, "name" : "Barker David", "scores" : { "type" : "exam", "score" : 91.38690728885123 } },
-{ "_id" : 154, "name" : "Shannon Alex", "scores" : { "type" : "exam", "score" : 94.50988306850947 } },
-{ "_id" : 159, "name" : "Bullock Luis", "scores" : { "type" : "exam", "score" : 97.822030541043 } },
-{ "_id" : 174, "name" : "Frye Paul", "scores" : { "type" : "exam", "score" : 91.51968055194875 } },
-{ "_id" : 191, "name" : "Marshall Paul", "scores" : { "type" : "exam", "score" : 94.67153825229884 } }
+{ 
+    "_id" : NumberInt(60), 
+    "name" : "Dusti Lemmond", 
+    "scores" : [
+        {
+            "type" : "exam", 
+            "score" : 17.27725327681863
+        }, 
+        {
+            "type" : "quiz", 
+            "score" : 83.24439414725833
+        }, 
+        {
+            "type" : "homework", 
+            "score" : 81.84258722611811
+        }, 
+        {
+            "type" : "homework", 
+            "score" : 24.70433764307496
+        }
+    ], 
+    "accepted" : true
+},
+{ 
+    "_id" : NumberInt(2001), 
+    "name" : "Dusti Lemmond", 
+    "scores" : [
+        {
+            "type" : "exam", 
+            "score" : 76.84555652243097
+        }, 
+        {
+            "type" : "quiz", 
+            "score" : 28.028382208262382
+        }, 
+        {
+            "type" : "homework", 
+            "score" : 62.46944003411778
+        }, 
+        {
+            "type" : "homework", 
+            "score" : 78.73446824963553
+        }
+    ], 
+    "accepted" : true
+}
 ]
