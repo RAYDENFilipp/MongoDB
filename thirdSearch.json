@@ -1,0 +1,48 @@
+[
+{ 
+    "_id" : NumberInt(60), 
+    "name" : "Dusti Lemmond", 
+    "scores" : [
+        {
+            "type" : "exam", 
+            "score" : 17.27725327681863
+        }, 
+        {
+            "type" : "quiz", 
+            "score" : 83.24439414725833
+        }, 
+        {
+            "type" : "homework", 
+            "score" : 81.84258722611811
+        }, 
+        {
+            "type" : "homework", 
+            "score" : 24.70433764307496
+        }
+    ], 
+    "accepted" : true
+},
+{ 
+    "_id" : NumberInt(2001), 
+    "name" : "Dusti Lemmond", 
+    "scores" : [
+        {
+            "type" : "exam", 
+            "score" : 76.84555652243097
+        }, 
+        {
+            "type" : "quiz", 
+            "score" : 28.028382208262382
+        }, 
+        {
+            "type" : "homework", 
+            "score" : 62.46944003411778
+        }, 
+        {
+            "type" : "homework", 
+            "score" : 78.73446824963553
+        }
+    ], 
+    "accepted" : true
+}
+]
