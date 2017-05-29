@@ -39,31 +39,22 @@ db.philippLypniakov.aggregate(
 	]
 );
 ```
-3. Modify Dusty Lemmond's documents([query result][3rd]):
+3. Modify Dusty Lemmond's documents([query result][3rd]; [acknowledgement result][4th]):
 ```javascript
-db.philippLypniakov.aggregate(
-	// Pipeline
-	[
-		// Stage 1
-		{
-			$match: {
-			name : "Dusti Lemmond"
-			}
-		},
-
-		// Stage 2
-		{
-			$addFields: {
-			    "accepted": true
-			}
-		},
-
-	]
-
+//Update Dusty Lemmond documents
+db.philippLypniakov.updateMany(
+   {name : "Dusti Lemmond"},
+   {$set : { "accepted" : true } }
 );
+
+//Return Dusty's documents
+db.philippLypniakov.find({
+    "name": "Dusti Lemmond"
+});
 ```
 
 [Studio 3T]: <https://studio3t.com/>
 [1st]: <https://github.com/RAYDENFilipp/MongoDB/blob/master/firstSearch.json>
 [2nd]:<https://github.com/RAYDENFilipp/MongoDB/blob/master/secondSearch.json>
 [3rd]:<https://github.com/RAYDENFilipp/MongoDB/blob/master/thirdSearch.json>
+[4th]: <https://github.com/RAYDENFilipp/MongoDB/blob/master/thirdSearchAcknowledgement.json>
